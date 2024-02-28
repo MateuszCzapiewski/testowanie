@@ -17,6 +17,7 @@ Aktywacja zmiennej środowiskowej
 ```sh
 source venv/bin/activate
 ```
+
 3. Instalacja Django
 ```sh
 pip install django
@@ -29,4 +30,8 @@ python manage.py runserver
 ```sh
 Unix
 python3 manage.py runserver
+```
+5. Pillow
+```sh
+pip install Pillow
 ```
