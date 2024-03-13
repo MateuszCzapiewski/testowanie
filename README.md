@@ -35,3 +35,7 @@ python3 manage.py runserver
 ```sh
 pip install Pillow
 ```
+6. Sentry_SDK
+```
+pip install --upgrade 'sentry-sdk[django]'
+```
