@@ -1,7 +1,7 @@
 ## Salon Samochodowy
 ## Wymagania
 ```sh
-python 3.11
+python 3.11 lub python 3.10
 ```
 ### Instrukcja instalacji
 Utworzenie wirtualnej zmiennej środowiskowej
