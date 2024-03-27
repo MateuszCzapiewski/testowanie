@@ -1,4 +1,6 @@
 from django.contrib import admin
-from .models import listCars
+
+from .models import CarList
+
 # Register your models here.
-admin.site.register(listCars)
+admin.site.register(CarList)

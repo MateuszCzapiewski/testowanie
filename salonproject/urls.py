@@ -18,6 +18,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from SalonSamochodowy import views
+from .views import BookDetailView
 
 
 def trigger_error(request):
@@ -31,4 +32,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('sentry-debug/', trigger_error),
     path('car-list/', views.car_list, name='car_list'),
+    path('book/<int:pk>/', BookDetailView.as_view(), name='book-detail'),
 ]
